@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 import Comment from './Comment.js';
+import CommentForm from './CommentForm.js';
 
 class CommentBox extends Component {
 constructor() {
 	super();
 
 	this.state = {
-		showComments: false
+		showComments: false,
+            comments:  [
+              {id: 1, author:"Cecilia Cooke", body:"Great work son Im really proud of you!"},
+              {id: 2, author:"Denis Cooke", body:"Excellent progress being made"},
+              {id: 3, author:"Denis Cooke", body:"Excellent progress being made"},
+              {id: 4, author:"Denis Cooke", body:"Excellent progress being made"}
+            ]
 	};
 }
 
@@ -26,30 +33,27 @@ constructor() {
 
     return(
     <div className="comment-box">
-      <h4 className="comment-count"> {this._getCommentsTitle(comments.length)}
-      	<div>
-	        	<button onClick={this._handleClick.bind(this)} variant="Hide" className="comment-footer-hide"> {buttonText} </button>
-	    	</div>
-	  </h4>
-	        	<div className="comment-list">
-	            {commentNodes}
-       		</div>
+    <CommentForm addComment={this._addComment.bind(this)} />
+        <h4 className="comment-count"> {this._getCommentsTitle(comments.length)}
+        	<div>
+  	        	<button onClick={this._handleClick.bind(this)} variant="Hide" className="comment-footer-hide"> {buttonText} </button>
+  	    	</div>
+  	  </h4>
+  	        	<div className="comment-list">
+  	            {commentNodes}
+         		</div>
     </div>
           );
   }
 
     _getComments()
 {
-
-      const commentList = [
-        {id: 1, author:"Cecilia Cooke", body:"Great work son Im really proud of you!"},
-        {id: 2, author:"Denis Cooke", body:"Excellent progress being made"},
-        {id: 3, author:"Denis Cooke", body:"Excellent progress being made"}
-      ];
-  
-  return commentList.map((comment)=>{
+  return this.state.comments.map((comment) => {
         return (
-          <Comment author= {comment.author} body= {comment.body} key={comment.id} />
+          <Comment
+          author= {comment.author} 
+          body= {comment.body}
+          key={comment.id} />
           );
         });
 
@@ -69,6 +73,15 @@ _handleClick() {
 	this.setState ({
 		showComments: !this.state.showComments
 	});
+}
+
+_addComment(author, body) {
+  const comment = {
+      id: this.state.comments.length + 1,
+      author,
+      body
+    };
+    this.setState({comments: this.state.comments.concat([comment]) });
 }
 
 
