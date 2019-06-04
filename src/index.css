@@ -46,22 +46,24 @@ code {
 }
 
 .header {
-  width: 100vw;
+  width: 100%;
   height: 96px;
-  opacity: 0.77;
+  opacity: 0.80;
   margin: 0px;
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
   padding-left: 24px;
   position: fixed;
   top: 0;
-  left: 0;
   background-color: #fff;
-  z-index: 1000;
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family:Helvetica, sans-serif;
+  overflow: hidden;
 }
-
+.header-right{
+  height: 96px;
+  margin-left: 52%;
+  padding: 0 50px;
+  text-align: center;
+}
 
 .title {
   margin: 25px 0;
@@ -77,11 +79,14 @@ code {
 }
 
 .navButton {
+  height: 96px;
   width:70px;
   margin: 0px;
   padding: 0px;
   outline: none;
   box-shadow: none;
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family:Helvetica, sans-serif;
   display:inline-block;
+  border: none;
+  text-align: center;
 }

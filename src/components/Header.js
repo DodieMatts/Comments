@@ -6,8 +6,11 @@ class Header extends Component {
   render() {
     return(
       <div className="header">
+        <div className="header-left">
               <h2 className="title">DTOURS</h2>
-                <Button className="navButton">
+        </ div>
+        <div className="header-right" >
+                <Button className="navButton" >
                   <h2>Home</h2>
                 </Button>
                 <Button className="navButton">
@@ -16,6 +19,7 @@ class Header extends Component {
                 <Button  className="navButton">
                   <h2>Contact</h2>
                 </Button>
+        </div >
       </div>
     )
   };
