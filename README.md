@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Hi, Thanks for visiting my webpage! To start please run 'npm aufit fix' to download & update dependcies before attempting to start the react App.
+
+Thank You!
+
 ## Available Scripts
 
 In the project directory, you can run:
