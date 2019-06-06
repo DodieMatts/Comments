@@ -10,13 +10,13 @@ class Header extends Component {
               <h2 className="title">DTOURS</h2>
         </ div>
         <div className="header-right" >
-                <Button className="navButton" >
+                <Button variant="outline-secondary" className="navButton">
                   <h2>Home</h2>
                 </Button>
-                <Button className="navButton">
+                <Button variant="outline-secondary" className="navButton">
                   <h2>Content</h2>
                 </Button>
-                <Button  className="navButton">
+                <Button  variant="outline-secondary" className="navButton">
                   <h2>Contact</h2>
                 </Button>
         </div >

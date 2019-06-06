@@ -14,9 +14,9 @@ code {
 }
 
 .comment-form {
-	width: 400px;
-	height: 150px;
-	padding: 65px;
+	width: 500px;
+	height: 350px;
+	padding: 10px;
 	background-color: #7ae0ed;
 	border-radius: 10px;
 }
@@ -27,6 +27,7 @@ code {
 	border-radius: 7px;
 	border: none;
 	margin: 5px;
+  font-size: .5em;
 }
 
 .commentInput {
@@ -35,6 +36,7 @@ code {
 	border-radius: 7px;
 	border: none;
 	margin: 5px;
+  font-size: .5em;
 }
 
 .postComment {
@@ -43,6 +45,15 @@ code {
 	border-radius: 5px;
 	background-color: yellow;
 	font-family: helvetica;
+  font-size: .4em;
+}
+
+.comment-footer-hide {
+border-radius: 5px;
+}
+
+.comment-count {
+    text-align: center;
 }
 
 .header {
@@ -82,15 +93,13 @@ code {
 }
 
 .navButton {
-  height: 70px;
-  width:70px;
-  margin: 0px;
-  padding: 0px;
-  outline: none;
+  height: 60px;
+  width:auto;
+  margin: 5px 10px;
+  padding: 5px;
   box-shadow: none;
   font-family:Helvetica, sans-serif;
   display:inline-block;
-  border: none;
   text-align: center;
 }
 .middle-section {

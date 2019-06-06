@@ -29,14 +29,14 @@ constructor() {
      if (this.state.showComments) {
      	buttonText = 'Hide Comments'
      }
-  
+
 
     return(
     <div className="comment-box">
     <CommentForm addComment={this._addComment.bind(this)} />
         <h4 className="comment-count"> {this._getCommentsTitle(comments.length)}
         	<div>
-  	        	<button onClick={this._handleClick.bind(this)} variant="Hide" className="comment-footer-hide"> {buttonText} </button>
+  	        	<button onClick={this._handleClick.bind(this)} variant="outline-secondary" className="comment-footer-hide"> {buttonText} </button>
   	    	</div>
   	  </h4>
   	        	<div className="comment-list">
@@ -51,7 +51,7 @@ constructor() {
   return this.state.comments.map((comment) => {
         return (
           <Comment
-          author= {comment.author} 
+          author= {comment.author}
           body= {comment.body}
           key={comment.id} />
           );
