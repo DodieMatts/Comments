@@ -5,11 +5,12 @@ class HomeBody extends Component {
     return(
         <div className="middle-section">
           <h3> Check out my Clips!</h3>
-            <iframe width="1067" height="600" className="Fortnite" title="Slaying with Galaxy Skin"
-              src="https://www.youtube.com/embed/1VfduBy9NRY"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-              gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
+            <div className="embed-responsive embed-responsive-16by9">
+              <iframe width="600" height="600" className="embed-responsive-item" title="Slaying with Galaxy Skin"
+                src="https://www.youtube.com/embed/1VfduBy9NRY"
+               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+              </iframe>
+              </div>
         </div>
     );
   }

@@ -15,7 +15,7 @@ code {
 
 .comment-form {
 	width: 500px;
-	height: 350px;
+	height: 255px;
 	padding: 10px;
 	background-color: #7ae0ed;
 	border-radius: 10px;
@@ -54,6 +54,7 @@ border-radius: 5px;
 
 .comment-count {
     text-align: center;
+    padding: 10px 0px;
 }
 
 .header {
@@ -109,8 +110,19 @@ border-radius: 5px;
 
 }
 
-.Fortnite {
+.embed-responsive embed-responsive-16by9 {
+  width: 75%;
+  height: 50%;
+
+}
+
+.embed-responsive-item {
   padding: 25% 25% ;
   background-color: #282c34;
   border: none;
+}
+
+#player {
+  width: 75%;
+  height: 50%;
 }
