@@ -65,7 +65,7 @@ border-radius: 5px;
   display: flex;
   padding-left: 24px;
   position: fixed;
-  top: 0;
+  top: 0px;
   color: #fff;
   background-color: #fff;
   font-family:Helvetica, sans-serif;
@@ -107,19 +107,16 @@ border-radius: 5px;
   colour: #282c34;
   background-color: #282c34;
   width: 100%;
+  margin-top: 70px;
 
 }
 
-.embed-responsive embed-responsive-16by9 {
-  width: 75%;
-  height: 50%;
-
-}
 
 .embed-responsive-item {
-  padding: 25% 25% ;
   background-color: #282c34;
   border: none;
+  width: 80%;
+  padding-left: 20%;
 }
 
 #player {
