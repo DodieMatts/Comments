@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import Header from './components/Header.js'
 
 
-class FirstPage extends Component {
+class Home extends Component {
   render() {
     return(
-      <div className="FirstPage">
+      <div id="Home">
+      <header>
           <Header />
+      </ header>
 
-          <body>
-          <p> this is a test </p>
-          </body>
+            <body>
+            <p> this is a test of a simple webpage </p>
+            </body>
 
           <footer>
           </footer>
@@ -19,4 +21,4 @@ class FirstPage extends Component {
   }
 }
 
-export default FirstPage;
+export default Home;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 import Nav from 'react-bootstrap/Nav';
+import Home from '../Home';
 
 class Header extends Component {
   render() {
@@ -10,7 +11,7 @@ class Header extends Component {
               <h2 className="title">DTOURS</h2>
         </ div>
         <div className="header-right" >
-                <Button variant="outline-secondary" className="navButton">
+                <Button variant="outline-secondary" className="navButton" href="../Home.js">
                   <h2>Home</h2>
                 </Button>
                 <Button variant="outline-secondary" className="navButton">
