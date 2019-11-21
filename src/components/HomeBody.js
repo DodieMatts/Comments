@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
+// import SlideShow from 'SlideShow.js';
 
 class HomeBody extends Component {
-  render () {
-    return(
+  render() {
+    // var SS = <SlideShow>;
+    // Console.log (SS);
+return(
         <div className="middle-section">
-            <div className="embed-responsive embed-responsive-16by9">
-              <iframe width="600" height="600" className="embed-responsive-item" title="Slaying with Galaxy Skin"
-                src="https://www.youtube.com/embed/1VfduBy9NRY"
-               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
-              </iframe>
-              </div>
+          <div className="mastHead">
+            <h1>DODIE MATTHEW</h1>
+          </div>
+          <section >
+      <img src='./components/daytona.jpeg' width="400px" height="00px" className="picShuffle"></img>
+          </section>
+        {/* <SlideShow></SlideShow> */}
         </div>
-    );
+      );
   }
 }
-
 export default HomeBody;

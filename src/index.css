@@ -57,13 +57,15 @@ border-radius: 5px;
     padding: 10px 0px;
 }
 
+/*---------------------  Header -------------------*/
 .header {
   width: 100%;
-  height: 70px;
+  height: 60px;
   opacity: 0.98;
   margin: 0px;
+  margin-bottom: 5px;
   display: flex;
-  padding-left: 15px;
+  padding-left: 5px;
   position: fixed;
   top: 0px;
   color: #fff;
@@ -73,12 +75,54 @@ border-radius: 5px;
   box-shadow: 1px 5px 5px black;
   z-index: 9999;
 }
+
 .header-right{
   height: 70px;
   margin-left: auto;
-  padding: 0 50px;
+  padding: 0 15px;
   text-align: center;
+  width:50%;
+  
 }
+
+.header-left {
+  width:25%;
+  margin: 0;
+}
+
+.header-left-right-container{
+  width: 100%;
+}
+
+/* Big Dodie Matthew in header */
+.middle-section {
+    height: 200px;
+    background-color: #282c34;
+    margin-top: 60px;
+    width: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.mastHead{
+    text-align: center;
+    /* padding: 50px 100px 0px 100px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    background: black;
+    width: 350px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    border-radius: 25px;
+}
+.mastHead h1 {
+  color: white;
+  font-family: C;
+
+}
+
 
 .title {
   margin: 0;
@@ -95,7 +139,7 @@ border-radius: 5px;
 }
 
 .navButton {
-  height: 60px;
+  height: 45px;
   width:auto;
   margin: 5px 10px;
   padding: 5px;
@@ -104,12 +148,15 @@ border-radius: 5px;
   display:inline-block;
   text-align: center;
 }
-.middle-section {
+
+/*-----------------------End of Header */
+/* .middle-section {
   colour: #282c34;
   background-color: #282c34;
+  height: auto;
   width: 100%;
-  margin-top: 70px;
-}
+  margin: 70px;
+} */
 
 .embed-responsive embed-responsive-16by9 {
   width: 75%;
@@ -117,7 +164,7 @@ border-radius: 5px;
 }
 
 .embed-responsive-item {
-  background-color: #282c34;
+  background-color: black;
   border: none;
   width: 80%;
   padding-left: 20%;
@@ -126,4 +173,18 @@ border-radius: 5px;
 #player {
   width: 75%;
   height: 50%;
+}
+.social {
+
+}
+
+
+
+/*------------------------------------Footer */
+footer {
+  height: auto;
+}
+.comment-box {
+  height: 100px;
+
 }

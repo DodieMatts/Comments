@@ -9,19 +9,20 @@ class StoryBox extends Component {
   render() {
 
     return (
-      <div className="root">
-      <header>
+    
+        <body>
+          <header className="header">
             <Header />
       </header>
 
-      <body>
+   
             <HomeBody />
-      </body>
+      
 
-      <footer>
+      <footer >
             <CommentBox />
       </footer>
-        </div>
+        </body>
     );
   }
 }

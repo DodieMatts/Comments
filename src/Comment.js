@@ -11,7 +11,10 @@ class Comment extends Component {
         	<div className= "comment-footer">
           <button variant="delete" className="comment-footer-delete "> Delete </button>
         	</div>
-
+        <footer class="social" >
+          <a href="https://www.facebook.com/dodie.matthew" target="_blank" rel="noopener norefferrer"><img src="/images/facebook.jpg" width="50" height="50" alt="facebook icon" class="FB" /></a>
+          <a href="https://www.instagram.com/prime.prospect/?hl=en" target="_blank" rel="noopener norefferrer"><img src="/images/IG.jpg" width="50" height="50" alt="Instagram icon" class="IG" /></a>
+        </footer >
 
       	</div>
      );
