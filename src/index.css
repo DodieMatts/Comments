@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #282c34;
 }
 
 code {
@@ -18,7 +19,8 @@ code {
 	height: 255px;
 	padding: 10px;
 	background-color: #7ae0ed;
-	border-radius: 10px;
+  border-radius: 10px;
+  margin-top:300px;
 }
 
 .nameInput {
@@ -99,6 +101,7 @@ border-radius: 5px;
     height: 200px;
     background-color: #282c34;
     margin-top: 60px;
+    margin-bottom: 100px;
     width: auto;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -174,15 +177,23 @@ border-radius: 5px;
   width: 75%;
   height: 50%;
 }
-.social {
 
+/* main pic section */
+.picSection {    
+  margin: 20px 20px 20px 20px;
+  background: #282c34;
+  color: #282c34;
+}
+
+.picShuffle {
+  box-shadow: 5px 5px 5px #000000;
 }
 
 
 
 /*------------------------------------Footer */
 footer {
-  height: auto;
+  height: 500px;
 }
 .comment-box {
   height: 100px;

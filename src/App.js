@@ -14,12 +14,12 @@ class StoryBox extends Component {
           <header className="header">
             <Header />
       </header>
-
+      <div>
    
             <HomeBody />
-      
+      </div>
 
-      <footer >
+      <footer className="footer">
             <CommentBox />
       </footer>
         </body>
