@@ -13,7 +13,7 @@ return(
           </div>
           <section className="picSection">
       <img src={pic} width="500px" height="500px" className="picShuffle" alt="on daytona beach"/>
-      {/* <img src={require('./../images/')} width="400px" height="400px" /> */}
+        <h3> Enjoy some of the Photgraphs I have taken!</h3>
           </section>
         {/* <SlideShow></SlideShow> */}
         </div>
