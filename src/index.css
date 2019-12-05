@@ -20,7 +20,7 @@ code {
 	padding: 10px;
 	background-color: #7ae0ed;
   border-radius: 10px;
-  margin-top:300px;
+  margin-top: 75%;
 }
 
 .nameInput {
@@ -102,11 +102,11 @@ border-radius: 5px;
 .middle-section {
     height: 200px;
     background-color: #282c34;
-    margin-top: 60px;
-    margin-bottom: 100px;
+    /* margin-top: 60px; */
+    /* margin-bottom: 100px; */
     width: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 85px;
+    padding-bottom: 125px;
 
 }
 .mastHead{
@@ -119,7 +119,7 @@ border-radius: 5px;
     background: black;
     width: 350px;
     height: auto;
-    margin: 0px auto 0px auto;
+    margin: 20px auto 0px auto;
     border-radius: 25px;
 }
 .mastHead h1 {
@@ -150,7 +150,7 @@ border-radius: 5px;
   margin: 5px 10px;
   padding: 5px;
   box-shadow: none;
-  font-family:Helvetica, sans-serif;
+  font-family:sans-serif;
   display:inline-block;
   text-align: center;
 }
@@ -183,22 +183,35 @@ border-radius: 5px;
 
 /* main pic section */
 .picSection {    
-  margin: 20px 20px 20px 20px;
+  padding: 50px 20px 20px 20px;
   background: #282c34;
   color: #282c34;
 }
 
 .picShuffle {
   box-shadow: 5px 5px 5px #000000;
+  margin-left: 200px;
 }
 
 section h3 {
   float: right;
-  color:black;
+  color:white;
   font-weight: bold;
   z-index: auto;
   text-align: center;
-  font-family: C;
+  font-family: sans-serif;
+}
+
+.siteInfo h3{
+  margin-bottom: 30px;
+  /* font-family: sans-serif; */
+}
+.siteInfo {
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 100px;
+  width: 100%;
 }
 
 
@@ -208,5 +221,5 @@ footer {
 }
 .comment-box {
   height: 100px;
-
+  width: 100%;
 }

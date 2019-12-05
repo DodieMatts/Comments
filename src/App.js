@@ -15,7 +15,6 @@ class StoryBox extends Component {
             <Header />
       </header>
       <div>
-   
             <HomeBody />
       </div>
 
