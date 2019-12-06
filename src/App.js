@@ -9,19 +9,18 @@ class StoryBox extends Component {
   render() {
 
     return (
-    
-        <body>
-          <header className="header">
-            <Header />
-      </header>
-      <div>
-            <HomeBody />
-      </div>
+      <React.Fragment>
+        <header className="header">
+          <Header />
+        </header>
+        <div>
+          <HomeBody />
+        </div>
 
-      <footer className="footer">
-            <CommentBox />
-      </footer>
-        </body>
+        <footer className="footer">
+          <CommentBox />
+        </footer>
+      </React.Fragment>
     );
   }
 }
