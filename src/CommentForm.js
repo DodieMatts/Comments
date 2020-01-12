@@ -4,16 +4,16 @@ class CommentForm extends Component {
 	render() {
 		return (
 					<form className="comment-form" onSubmit={this._handleSubmit.bind(this)}>
-						<label> JOIN THE DISCUSSION </label>
+						<label> Send a message.. </label>
 							<div className="comment-form-fields"> 
-								<input placeholder=" Whats your name? " ref={(input) => this._author = input} className="nameInput"/>
+								<input placeholder="From..." ref={(input) => this._author = input} className="nameInput"/>
 								<br />
-								<textarea placeholder="Join the discussion... " ref={(textarea) => this._body = textarea} className="commentInput">
+								<textarea placeholder="Message..." ref={(textarea) => this._body = textarea} className="commentInput">
 							</textarea>
 							</div>
 							<div className="comment-form-actions">
 								<button type="submit" className="postComment">
-								POST COMMENT
+								Submit
 								</button>
 							</div>
 					</form>

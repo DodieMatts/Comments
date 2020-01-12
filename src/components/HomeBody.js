@@ -12,18 +12,18 @@ class HomeBody extends Component {
             <div className="middle-section">
                 <div className="mastHead">
                     <h1>DODIE MATTHEW</h1>
+                    <h6>Software Engineer</h6>
                 </div>
-                <section className="picSection">
+                <div>
+                    <p>This is a random paragraph tag indicating where my paragraph body will go</p>
+                </div>
+
+                {/* <section className="picSection">
                     <img src={pic} width="500px" height="500px" className="picShuffle" alt="on daytona beach" />
                     <h3> Enjoy some of the Photgraphs I have taken!</h3>
-                </section>
+                </section> */}
                 {/* <SlideShow></SlideShow> */}
-                <div className="siteInfo">
-                    <h3>This site was built using these technologies!</h3>
-                    <img src={reactLogo} width="450px" height="250px" alt="on daytona beach" />
-                    <img src={logos} width="450px" height="250px" alt="on daytona beach" />
 
-                </div>
             </div>
 
         );
