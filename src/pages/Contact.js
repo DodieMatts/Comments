@@ -1,16 +1,20 @@
 import React, { Component } from "react";
 
-class Contact extends Component {
-  render() {
+const contact = (props) => {
     return (
-      <div>
-        <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
-        </p>
+      <div className="contact">
+        
+
+        <h2>{props.title}</h2>
+        <p>{props.text}</p>
+
+        <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40.375 0H10.625C4.75787 0 0 4.75787 0 10.625V40.375C0 46.2421 4.75787 51 10.625 51H40.375C46.2443 51 51 46.2421 51 40.375V10.625C51 4.75787 46.2443 0 40.375 0ZM17 40.375H10.625V17H17V40.375ZM13.8125 14.3055C11.7598 14.3055 10.0938 12.6267 10.0938 10.557C10.0938 8.48725 11.7598 6.8085 13.8125 6.8085C15.8652 6.8085 17.5312 8.48725 17.5312 10.557C17.5312 12.6267 15.8674 14.3055 13.8125 14.3055ZM42.5 40.375H36.125V28.4665C36.125 21.3095 27.625 21.8514 27.625 28.4665V40.375H21.25V17H27.625V20.7506C30.5915 15.2554 42.5 14.8495 42.5 26.0121V40.375Z" fill="#4A4A4A" />
+        </svg>
+       
+
       </div>
-    );
+    )
   }
-}
 
 export default Contact;

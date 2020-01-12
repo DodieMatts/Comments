@@ -1,0 +1,9 @@
+{
+    "data": [
+        {"title": "Contact", "text": "This is where i display information about my Contact Component"},
+        {"author": "About Me", "body": "This is where i include information about my Self, what i enjoy doing and what i would like to include so people can see"},
+        {"tech": "Technologies", "techStack" : "This is where i include information about my Tech stack, what i used to build this website and everything included etc."},
+        {"project": "Projects", "work": "here is the work that i have completed"},
+        {"contact": "Contact", "message": ""}
+    ]
+}
