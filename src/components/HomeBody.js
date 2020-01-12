@@ -14,9 +14,6 @@ class HomeBody extends Component {
                     <h1>DODIE MATTHEW</h1>
                     <h6>Software Engineer</h6>
                 </div>
-                <div>
-                    <p>This is a random paragraph tag indicating where my paragraph body will go</p>
-                </div>
 
                 {/* <section className="picSection">
                     <img src={pic} width="500px" height="500px" className="picShuffle" alt="on daytona beach" />

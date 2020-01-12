@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class CommentForm extends Component {
 	render() {
 		return (
-					<form className="comment-form" onSubmit={this._handleSubmit.bind(this)}>
+					<form className="comment-form" onSubmit={this._handleSubmit.bind(this)} netlify>
 						<label> Send a message.. </label>
 							<div className="comment-form-fields"> 
 								<input placeholder="From..." ref={(input) => this._author = input} className="nameInput"/>
