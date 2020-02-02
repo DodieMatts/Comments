@@ -61,7 +61,7 @@ border-radius: 5px;
 
 .comment-box{
   /*background-color: #282c34;*/
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -281,12 +281,20 @@ section h3 {
   background: #282c34;
   color: #DAC4C4;
   text-align: center;
+  min-height: 60vh;
+   }
+   .project p {
+     padding: 15px 25% 0px 25%;
    }
   
 .technology{
   background: #fff;
   text-align: center;
+  min-height:60vh;
 }
+  .technology p {
+    padding: 15px 25% 15px 25%;
+  }
 .about{
   background: #282c34;
   text-align: center;

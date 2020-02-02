@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import pic from '../daytona.png';
 import reactLogo from '../react-logo.png';
 import logos from '../HTML-CSS-JS-logo.png';
 // import SlideShow from 'SlideShow.js';
