@@ -15,9 +15,9 @@ class Header extends Component {
             </svg>
           </div>
           <div className="headerMenu">
-            <a>About</a>
-            <a>Projects</a>
-            <a>Contact</a>
+            <a href="#aboutID">About</a>
+            <a href="#projectID">Projects</a>
+            <a href="#contactID">Contact</a>
           </div>
         </div>
       </Router>

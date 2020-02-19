@@ -42,10 +42,10 @@ class StoryBox extends Component {
         </header>
         {/*<div>*/}
           <HomeBody />
-          <About title={author} text={body}/>
+          <About className="about_Paragraph" id="aboutID" title={author} text={body}/>
           <Technologies title={tech} text={techStack}/>
-          <Project title={project} text={work} />
-          <Contact title={contact} text={message}/>
+          <Project id="projectID"title={project} text={work} />
+          <Contact id="contactID" title={contact} text={message}/>
         {/*</div>*/}
 
         {/*<footer className="footer">

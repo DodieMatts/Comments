@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 const Project = (props) => {
     return (
-        <div className="project">
+        <div className="project" id="projectID">
             <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="28" height="24" fill="white" />
                 <path d="M0 4.5H28" stroke="black" />
