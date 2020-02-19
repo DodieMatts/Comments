@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 
 const about = (props) => {
     return (
-        <div className="about">
+        <div className="about" id="aboutID">
             {/*<img src="./components/assets/aboutLogo.svg" alt="about_me_Icon" height="10" width="10" />*/}
             <svg width="22" height="30" viewBox="0 0 22 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11 11C14.3137 11 17 8.53757 17 5.5C17 2.46243 14.3137 0 11 0C7.68629 0 5 2.46243 5 5.5C5 8.53757 7.68629 11 11 11Z" fill="#C4C4C4" />
