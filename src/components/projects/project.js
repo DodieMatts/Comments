@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Orderbook from '../assets/orderbook.gif';
 
 const Project = (props) => {
     return (
@@ -14,6 +15,12 @@ const Project = (props) => {
 
             <h3>{props.title}</h3>
             <p>{props.text}</p>
+            <span >
+                <h4>
+                    Latest project - an order book displaying price, amount and cumulative total of a given crypto-currency token.
+                </h4>
+            <img src={Orderbook} alt="loading..." />
+            </ span>
         </div>
     )
 }
