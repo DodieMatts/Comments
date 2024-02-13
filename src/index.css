@@ -327,3 +327,26 @@ a:hover {
   text-decoration: none;
   font-size: 1.1em;
 }
+
+/*--------------------Mobile Responsivity---------------*/
+@media screen and (min-width: 700px){
+  header {
+  width: 100%;
+  height: 70px;
+  /*opacity: 0.10;*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  color: grey;
+  /*background-color: black;*/
+  font-family:Helvetica, sans-serif;
+  font-size: 2em;
+  z-index: 100;
+  /*filter: brightness(0.7)*/
+  
+}
+
+  
+}
